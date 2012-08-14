@@ -1,0 +1,9 @@
+#mainContent .content-top {height:0;}
+#mainContent #social {line-height:10px}
+a strong {display: block;font-size: 15px;padding-top:5px}
+#contact #professional {width:241px}
+#mainContent #social li {float: left;height: 47px;width: 216px;position: relative;left:-30px;padding:0;}
+#social a {	width: 225px;height: 47px;z-index: 2;}
+#social a:hover {background:url(../images/a-hover.jpg) repeat-x;width:236px; zoom:1;}
+
+
