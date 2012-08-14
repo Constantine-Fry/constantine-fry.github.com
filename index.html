@@ -1,32 +1,108 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE HTML>
+<html lang="en-US" class="no-js">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<title>Constantine Fry</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
+<title>Constantine Fry: Objective-C Developer</title>
+<meta name="description" content="Mac Os X Lion with CSS3 Experiment - I wanted to create with only use of CSS3 the boot, the login page and finally the desktop of the Mac OS X Lion." />
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-ui-1.8.17.custom.min.js"></script>
+<script type="text/javascript" src="js/modernizr.js"></script>
+<script type="text/javascript" src="js/fix-and-clock.js"></script>
+
+</head>
+
+<body>
+
+<!-- FAIL -->
+<div id="fail">
+	<div class="fail-browser-logo">
+    	<img src="http://alessioatzeni.bluxart.netdna-cdn.com/mac-osx-lion-css3/res/img/apple-logo-login.png" alt="Mac OS X" />
+    </div>
+    <div class="fail-browser">
+        <p><strong>I'm sorry to inform you that your browser don't support CSS3 Animations!</strong></p> 
+        <p>This site uses features that <em>require</em> a modern browser - why not try <a href="http://www.mozilla.org/en-US/firefox/fx/" target="_blank" title="Download Firefox">Firefox</a> ?</p>
+    </div>
+</div>
+
+<!-- BOOT -->
+<div id="pageLoading">
+	<div class="loading">
+		<div class="apple-logo"></div>
+        <div class="spinner"></div>
+	</div>
+</div>
+
+<!-- LOGIN -->
+<div id="pageLogin">
+	<header id="headlogin">
+		<nav id="menu-dx-login">
+    	<ul>
+   			<li class="wireless"></li>
+    		<li class="time">
+    		<ul>
+				<li class="hours"> </li>
+    			<li class="point">:</li>
+    			<li class="min"> </li>
+        	</ul>
+    		</li>
+		</ul>
+    	</nav>
+    </header>
+	<div class="new-apple-logo"></div>
+    
+    <div class="user-avatar">
+        <div id="avatar" >
+        <a href="#hideas" class="hideas" id="hideas"></a>
+        <a href="#hideas1" class="hideas1" id="hideas1"></a>
+        <div id="cover"></div>
+        <div class="ava-css">
+        <img src="http://www.gravatar.com/avatar/fa8df44fa3a072ae331251290bde7aee.png" />
+        </div>
+        <div class="logName">
+        <p>Constantine Fry</p>
+        </div>
+        <div id="switch">
+        <div class="validate">
+        <form action="#page">
+        	<input type="password" id="password" placeholder="Password" />
+            <input type="submit" class="submit" />
+            </form>
+        </div>
+        </div>
+        </div>
+        </div>
+    </div>
+
+<!-- DESKTOP -->
+<div id="page">
+    <head>
+        <!--<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Constantine Fry</title>
 	    <script src="js/jquery.tools.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" charset="utf-8"/>
-	<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css" media="screen" />
-    <!--[if IE 6]>
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="css/ie6.css" />
-		<script language="javascript" type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js"></script>
-		<script>DD_belatedPNG.fix('.copyright-coda, #logo a, ul#navigation, #navigation li, #navigation a, #navigation .current, #navigation .current a, #portfolio h2, #about h2, #social h2, #contact h2, #mainContent .content-top,#mainContent .content-center, #mainContent .content-bottom, #mainContent #social ul, .tooltip, #header, #mainContent, #nav, #bottom, #vcard img, #contact img, .copyright img, .copyright-coda img');</script>
-		<![endif]--> 
-    <!--[if IE 7]>
-		<link rel="stylesheet" type="text/css" media="screen, projection" href="css/ie7.css" />
-		<![endif]--> 
+        <link rel="stylesheet"  type="text/css" href="css1/style.css" media="screen" charset="utf-8"/>
+        <link rel="stylesheet" type="text/css" href="css1/jquery.fancybox.css" media="screen" />
+        [if IE 6]>
+         <link rel="stylesheet" type="text/css" media="screen, projection" href="css/ie6.css" />
+         <script language="javascript" type="text/javascript" src="js/DD_belatedPNG_0.0.8a.js"></script>
+         <script>DD_belatedPNG.fix('.copyright-coda, #logo a, ul#navigation, #navigation li, #navigation a, #navigation .current, #navigation .current a, #portfolio h2, #about h2, #social h2, #contact h2, #mainContent .content-top,#mainContent .content-center, #mainContent .content-bottom, #mainContent #social ul, .tooltip, #header, #mainContent, #nav, #bottom, #vcard img, #contact img, .copyright img, .copyright-coda img');</script>
+         <![endif]-->
+        <!--[if IE 7]>
+         <link rel="stylesheet" type="text/css" media="screen, projection" href="css/ie7.css" />
+         <![endif]-->
 	</head>
 	<body>
-		<div id="container">
+		<div id="head">
+            <div id="container">
 			<div id="header">
 				<div id="logo"> <a href="#">Logo</a> </div>
 				<!-- /Logo -->
-        <div id="vcard"> 
-            <a href="http://dl.dropbox.com/u/1378133/Constantine-Fry.vcf" class="tooltip" rel="images/vcardtip-trans.png">
-              <img src="images/vcard-trans.png" alt="" width="57" height="48"/>
-            </a> 
-        </div> 
-        <!-- /vCard --> 
+                <div id="vcard">
+                    <a href="http://dl.dropbox.com/u/1378133/Constantine-Fry.vcf" class="tooltip" rel="images/vcardtip-trans.png">
+                        <img src="images/vcard-trans.png" alt="" width="57" height="48"/>
+                    </a>
+                </div>
+                <!-- /vCard -->
 			</div>
 			<!-- /Header -->
 			<div id="nav">
@@ -47,60 +123,27 @@
 								<h2>Recent Work</h2>
 							</div>
 							<div class="content-center">
-                    <div class="gallery"> 
-        <ul>
-                    <li>
-                        <a rel="group" href="images/st-b.png" title="http://bit.ly/Ny7ULU">
-                        <img src="images/st-s.png" alt="Gallery"/></a>
-                    </li> 
-                    
-                    <li>
-                        <a rel="group" href="images/ft-b.png" title="http://bit.ly/uXSSMs">
-                        <img src="images/ft-s.png" alt=""/></a>
-                    </li>
-                    
-                    <li>
-                        <a rel="group" href="images/ti-b.png" title="http://bit.ly/sICluD ">
-                        <img src="images/ti-s.png" alt="Gallery"/></a> 
-                    </li>
-                
-                     <li>
-                             <a rel="group" href="images/placeholder-b.jpg" title="At FlashDen you can buy and sell royalty-free Adobe Flash and Flex files for just a few dollars.">
-                             <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                     </li>
-                 
-                     <li> 
-                         <a rel="group" href="images/placeholder-b.jpg" title="WorkAwesome is a resource for the worker.">
-                         <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                     </li>
-                 
-                 <li>
-                     <a rel="group" href="images/placeholder-b.jpg" title="you want to be the best, you have to learn from the best.">
-                     <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                 </li>
-                 
-                  <li>
-                      <a rel="group" href="images/placeholder-b.jpg">
-                      <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                  </li>
-                  
-                  <li> 
-                      <a rel="group" href="images/placeholder-b.jpg">
-                      <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                  </li>
-                  
-                  <li> 
-                      <a rel="group" href="images/placeholder-b.jpg">
-                      <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                  </li>
-                  
-                  <li> 
-                      <a rel="group" href="images/placeholder-b.jpg">
-                      <img src="images/placeholder-s.png" alt="Gallery"/></a>
-                  </li>
-      </ul>
-       </div>
+                                <div class="gallery">
+                                    <ul>
+                                        <li>
+                                            <a rel="group" href="http://bit.ly/Ny7ULU" title="Soundtracker Radio" target="_blank">
+                                                <img src="images/st-s.png" alt="Gallery"/></a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a rel="group" href="http://vimeo.com/18894832" title="Fan_ trail" target="_blank">
+                                                <img src="images/ft-s.png" alt=""/></a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a rel="group" href="http://bit.ly/OgP371" title="Team_Ifno Application" target="_blank">
+                                                <img src="images/ti-s.png" alt="Gallery"/></a>
+                                        </li>
+                                        
 
+                                    </ul>
+                                </div>
+                                
 							</div>
 							<!-- /content-center-->
 							<div class="content-bottom"> </div>
@@ -113,9 +156,9 @@
 							</div>
 							<div class="content-center">
 								<div class="about-content">
-									<p>Hello. My name is Constantine Fry. I graduated from Omsk State Technical University with a Bachelor degree of Information Technology. I’m iOS developer by day and ballroom dancer by night. I’m interested in different iPhone/iPad projects but especially in game development.</p>
+									<p>Hello. My name is Constantine Fry. I graduated from Omsk State Technical University with a Bachelor degree of Information Technology.  I’m interested in different iPhone/iPad projects but especially in social netwoks and music apps.</p>
 									<ul>
-										<li>Objective-C, C/C++</li>
+										<li>Objective-C, C/C++, Ruby, AppleScript</li>
 										<li>Cocoa Touch, Three20, Cocos-2D</li>
 									</ul>
 								</div>
@@ -147,7 +190,7 @@
                                     <li><a href="https://github.com/Constantine-Fry"><img src="images/github_icon.png" alt="" /><strong>GitHub</strong>
 										<span>https://github.com/Constantine-Fry</span>
 									</a></li>
-
+                                    
 									<li><a href="http://twitter.com/apple_developer"><img src="images/twitter-trans.png" alt="" /><strong>Twitter</strong>
 										<span>http://twitter.com/apple_developer</span>
 									</a></li>
@@ -209,35 +252,39 @@
 			<div id="bottom"><a class="copyright-coda" href="#"><img src="images/copyright-trans.png" alt="" width="157" height="17" /></a> </div>
 			<!-- /Bottom-->
 		</div>
+            </div>
 		<!-- /Container -->
 		<div class="clear"></div>
 		<div id="footer"></div>
 		<!--/Footer-->
 		<script type="text/javascript">
-		$('#social a').hover(function () {
-			$('img', this).stop().animate({
-				'marginLeft' : 5
-				}, 250);
-			}, function() {
-				$('img', this).stop().animate({
-					'marginLeft' : 10
-					}, 250);
-				});
-				</script>
+            $('#social a').hover(function () {
+                                 $('img', this).stop().animate({
+                                                               'marginLeft' : 5
+                                                               }, 250);
+                                 }, function() {
+                                 $('img', this).stop().animate({
+                                                               'marginLeft' : 10
+                                                               }, 250);
+                                 });
+            </script>
+        
+        <script src="js/browser.selector.js" type="text/javascript"></script>
+        <script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
+        <script src="js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
+        <script src="js/tooltip.js" type="text/javascript" charset="utf-8"></script> 
+        <script src="js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
+        <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox-1.2.1.js"></script>
+        <script type="text/javascript">
 
-	<script src="js/browser.selector.js" type="text/javascript"></script>
-	<script src="js/jquery.scrollTo-1.3.3.js" type="text/javascript"></script>
-	<script src="js/jquery.localscroll-1.2.5.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/jquery.serialScroll-1.2.1.js" type="text/javascript" charset="utf-8"></script>
-	<script src="js/tooltip.js" type="text/javascript" charset="utf-8"></script> 
-	<script src="js/coda-slider.js" type="text/javascript" charset="utf-8"></script>
-	<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
-	<script type="text/javascript" src="js/jquery.fancybox-1.2.1.js"></script>
-	<script type="text/javascript">
-	$(document).ready(function() {
-		$("#portfolio a").fancybox();
-	});
-	</script>
+            </script>
+        
+    </body>
+</div>
+
+
 
 </body>
 </html>
