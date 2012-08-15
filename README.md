@@ -59,6 +59,9 @@ http://www.fontsquirrel.com/fontface/generator
 	}
 http://css-tricks.com/forums/discussion/10449/weird-mobile-safari-font-face-problem-font-doubled-and-offset-to-the-left-/p1
 
+###GitHub Pages help
+https://help.github.com/categories/20/articles
+
 Used
 ==
 
