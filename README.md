@@ -2,20 +2,18 @@ My Personal WebPage
 =
 http://appledeveloper.me
 
-Mac OS X Lion with CSS3 by Alessio Atzeni
--
+###Mac OS X Lion with CSS3 by Alessio Atzeni
 http://www.alessioatzeni.com/blog/mac-os-x-lion-with-css3/
 
-vCard Professional Portfolio by Ivor Padilla
--
+###vCard Professional Portfolio by Ivor Padilla
 http://themeforest.net/item/vcard-professional-portfolio/64207
 
 
 #CSS3 #HTML #jQuery
 
 
-Detecting device size & orientation in CSS
-------------------------------------------
+###Detecting device size & orientation in CSS
+
 <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
 <meta name="apple-mobile-web-app-capable" content="yes" />
 
