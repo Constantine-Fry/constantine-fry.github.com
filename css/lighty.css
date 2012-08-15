@@ -446,6 +446,7 @@ input, select {
 }
 
 body {
+-webkit-text-size-adjust:none;
 background-color: #FFFFFF;
     width: 450px;
     margin: 30px auto;
