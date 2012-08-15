@@ -39,6 +39,7 @@ http://designshack.net/articles/css/10-great-google-font-combinations-you-can-co
 ###Helpful things for CSS and fonts:
 
 http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/
+
 http://www.fontsquirrel.com/fontface/generator
 
 ###Adding fonts from Goole Fonts:
