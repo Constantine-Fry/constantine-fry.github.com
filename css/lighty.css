@@ -446,7 +446,6 @@ input, select {
 }
 
 body {
--webkit-text-size-adjust:none;
 background-color: #FFFFFF;
     width: 450px;
     margin: 30px auto;
@@ -469,7 +468,8 @@ div#header {
     margin: 20px 0;
 }
 h1 {
-    -webkit-text-size-adjust:none;	
+    text-shadow: 0 0 0;
+
     color: #4E555D;
     font-size: 50px;
 	line-height: 80px; 
