@@ -45,7 +45,7 @@ http://www.fontsquirrel.com/fontface/generator
 	<link href="http://fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
 
 
-#Mobile safari @font-face problem - font doubled and offset to the left.
+###Mobile safari @font-face problem - font doubled and offset to the left.
 
 	h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
   	  font-weight: normal;
