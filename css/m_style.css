@@ -1,0 +1,441 @@
+/*  
+Theme Name: vCard Professional Portfolio
+Theme URI: 
+Description: A single page template to display your main information, based on Tim Van Damme's site.
+Version: 1.0
+Author: Ivor Padilla
+Author URI: http://ivorpadilla.net
+Tags: */
+
+/*
+--------------------------------------
+1. Basic Styles
+2. Basic Structure
+3. Header
+4. Navigation
+5. Main Content
+		5.1 Portfolio
+		5.2 About me
+		5.3 Social
+		5.4 Contact
+6. Browser Specific Hacks
+--------------------------------------
+*/
+
+@import url('text.css');
+/* Reset */
+html, body, div, span, object, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, font, img, ol, ul, dl fieldset, form, label {
+	margin: 0;
+	padding: 0 0 0 0;
+	border: 0;
+	outline: 0;
+	vertical-align: baseline;
+	background: transparent;
+}
+li {
+	list-style:none;
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, ol, ul, fieldset, form {
+	padding:0 0 20px 0;
+}
+/*
+--------------------------------------
+1. Basic Styles
+--------------------------------------
+*/
+body {
+    background: #e0e0e0 url(../images/NSTexturedFullScreenBackgroundColor.png) repeat ;
+	margin: 0;
+	font-size:100%;
+	line-height:1.125em;
+	font-family:'Helvetica Neue', Arial, sans-serif;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+/* start commented backslash hack \*/
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* close commented backslash hack */
+.clear {
+	clear:both;
+	height:0;
+	overflow:hidden;
+	margin:-1px 0 0 0;
+}
+a:link {
+	color: #000;
+	text-decoration: underline
+}
+a:visited {
+	color: #000;
+}
+a:hover, a:focus {
+	color: #000;
+	text-decoration: none;
+}
+/*
+--------------------------------------
+2. Basic Structure
+--------------------------------------
+*/
+#container {
+	width: 560px;
+	margin: 0 auto;
+	padding-top: 100px;
+	position:relative;
+}
+#header {
+	background: transparent url(../images/header-trans.png) no-repeat 50% 0;
+	height:67px;
+	position: relative;
+	padding:35px 35px 0;
+}
+#mainContent {
+	background: transparent url(../images/content-trans.png) repeat-y 50% 0;
+overflow: hidden;
+	padding:4px 33px 0 33px;
+}
+#nav {
+	background: transparent url(../images/content-trans.png) repeat-y 50% 0;
+	height:40px;
+    margin:0px;
+	padding:10px 0 8px 0;
+}
+#bottom {
+	background:transparent url(../images/bottom-trans.png) no-repeat scroll 50% -40px;
+	height:118px;
+}
+/*
+--------------------------------------
+3. Header
+--------------------------------------
+*/
+
+#logo a {
+	display:block;
+	background:url(../images/logo-trans.png) no-repeat;
+	text-indent:-9999px;
+	height:42px;
+	width: 251px;
+	float:left;
+	margin-left:10px;
+}
+#vcard img {
+	float:right;
+	border:0;
+	cursor:pointer;
+	margin:0 8px;
+	width:57px;
+}
+/*
+--------------------------------------
+4. Navigation
+--------------------------------------
+*/
+ul#navigation {
+	background:transparent url(../images/nav-bg-trans.png) no-repeat scroll 50% 0;
+	line-height:normal;
+	margin:0 auto;
+	width:450px;
+	height:30px;
+	padding-top:5px;
+	padding-left:122px;
+}
+#navigation li {
+	background:transparent url(../images/nav-r-trans.png) no-repeat scroll right top;
+	float:left;
+	height:28px;
+	margin:0px 11px;
+	padding:0px 0px;
+}
+#navigation a {
+	background:transparent url(../images/nav-l-trans.png) no-repeat scroll left top;
+	color:#FFFFFF;
+	display:block;
+	font-size:11px;
+	height:13px;
+	margin-left:-15px;
+	padding:8px 19px;
+	text-decoration:none;
+	text-shadow:1px 1px 0 #343333;
+}
+#navigation .current {
+	background:transparent url(../images/nav-r-trans.png) no-repeat scroll right -27px;
+}
+#navigation .current a {
+	background:transparent url(../images/nav-l-trans.png) no-repeat scroll left -27px;
+}
+/*
+--------------------------------------
+5. Main Content
+--------------------------------------
+*/
+#mainContent h2 {
+	color: #111111;
+	font-size:17px;
+	margin:0 0 0 10px;
+	padding-left:24px;
+	text-shadow:1px 1px 0px #ffffff
+}
+#portfolio h2 {
+	background:url(../images/little-box-trans.png) no-repeat 0 3px;
+}
+#about h2 {
+	background:url(../images/about-icon-trans.png) no-repeat 0 3px;
+}
+#social h2 {
+	background:url(../images/social-icon-trans.png) no-repeat 0 3px;
+}
+#contact h2 {
+	background:url(../images/contact-icon-trans.png) no-repeat 0 3px;
+}
+#mainContent .content-top {
+	background:url(../images/content-top-trans.png) no-repeat;
+	padding:5px 0 0px 20px;
+	height:27px;
+}
+#mainContent .content-center {
+	background: url(../images/content-middle-trans.png) repeat-y;
+	overflow:hidden
+}
+#mainContent .content-bottom {
+	background:url(../images/content-bottom-trans.png) no-repeat 0 0;
+	height:13px;
+	clear:both
+}
+/*
+--------------------------------------
+5.1. Portfolio
+--------------------------------------
+*/
+#mainContent div.gallery {
+	margin-top: 4px;
+    margin-bottom: -24px;
+	height: auto;
+	width: auto;
+	float: left;
+	text-align: center;
+}
+div.gallery li {
+	display: inline;
+	margin: 3px 8px;
+}
+div.gallery ul {margin:0}
+div.gallery img {margin:10px 0 5px 0}
+
+#about, #social {
+	margin-bottom:30px
+}
+/*
+--------------------------------------
+5.2 About us
+--------------------------------------
+*/
+.about-content {
+	margin: 10px 20px 0px 20px;
+	width: auto;
+	float: left;
+	height:180px
+}
+.about-content p {
+	margin:0;
+	font-size:12px;
+	color:#515151;
+	text-shadow:1px 1px #ffffff;
+}
+.about-content ul {
+	margin:0;
+	padding-bottom:18px
+}
+.about-content li {
+	font-size:11px;
+	color:#515151;
+	list-style-image:url(../images/arrow.jpg)
+}
+/*
+--------------------------------------
+5.3 Social Network
+--------------------------------------
+*/
+#mainContent #social ul {
+	float: left;
+	display: block;
+	width: 492px;
+	margin: 0 0 0 1px;
+	padding: 0;
+	background: url(../images/social-bg-trans.png) repeat;
+	list-style: none;
+}
+#mainContent #social li {
+	float: left;
+	height: 47px;
+	width: 216px;
+	position: relative;
+	left:-30px;
+	padding:0
+}
+#social a {
+	font-size: 1em;
+	color: #666;
+	text-decoration: none;
+	display: block;
+	width: 246px;
+	height: 47px;
+	position: relative;
+	z-index: 2;
+}
+#social a:hover {
+	background:url(../images/a-hover.jpg) repeat-x;
+	width:245px
+}
+#social a img {
+	border: 0;
+	float: left;
+	margin: 9px 10px;
+}
+a strong {
+	display: block;
+	font-size: 15px;
+	text-shadow: 1px 1px #fff;
+	padding-top:9px;
+	line-height:14px;
+}
+#social div.content-bottom {
+	display:none
+}
+#social span {
+	height:0px;
+	font-size:12px;
+	color:#4d4d4d;
+	text-shadow:1px 1px white
+}
+/*
+--------------------------------------
+5.4. Contact me
+--------------------------------------
+*/
+#contact #personal {
+	width:248px;
+	margin-left:1px;
+	float:left
+}
+#contact #professional {
+	width:242px;
+	float:right;
+	margin-right:8px;
+	border-left:1px solid #dedede;
+}
+#contact div.title {
+	padding:0px 5px 20px 5px;
+	background:url(../images/h3-bg.jpg)repeat-x;
+	height:47px
+}
+#contact div.title p {
+	margin-top:0px;
+	padding:0;
+	text-shadow:1px 1px white;
+	font-size:11px;
+	color:#4d4d4d;
+}
+#contact div.title h3 {
+	margin:0;
+	padding:10px 0 2px 0;
+	color:#111;
+	font-size:1.2em;
+	font-weight: bold;
+	line-height:10px;
+	text-shadow:1px 1px white
+}
+#contact div.title img {
+	float:left;
+	margin-top:8px;
+	padding-right:4px
+}
+#contact a {
+	color: #4d4d4d;
+	font-size:12px
+}
+#contact ul {
+	padding:0;
+	margin-left:-10px
+}
+#contact li {
+	line-height:25px;
+	padding-left:20px;
+	font-size:.9em
+}
+.email {
+	background: url(../images/email.jpg) no-repeat 0 5px
+}
+.blog {
+	background: url(../images/blog.jpg) no-repeat 0 4px
+}
+.phone {
+	background: url(../images/phone.jpg) no-repeat 0 4px
+}
+.address {
+	background: url(../images/address.jpg) no-repeat 0 4px
+}
+.site {
+	background: url(../images/site.jpg) no-repeat 0 4px
+}
+.scroll {
+	clear:left;
+	height:260px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	position:relative;
+	width:561px;
+	left:-16px;
+}
+.scrollContainer div.panel {
+	height:210px;
+	padding:20px;
+	width:500px;
+}
+.copyright {position: relative; top:27px; left:200px}
+.copyright-coda {position: relative; top:20px; left:200px}
+#tooltip{
+	position:absolute;
+	display:none;
+	color:#fff;
+}
+/*
+--------------------------------------
+6. Browser Specific
+--------------------------------------
+*/
+.opera #mainContent div.gallery {margin:0px 11px -10px 22px;}
+.ie6 #mainContent div.gallery {margin-top: 15px;margin-bottom: -20px;}
+.ie6 ul#navigation {	background:transparent url(../images/nav-bg-trans.png) no-repeat scroll 50% 0;	line-height:12px;	margin:0 auto;	width:450px;
+	height:100%;	padding-top:5px;	padding-left:100px;}
+.ie6  ul#navigation .current { margin-top:2px; background-position: right -28px;}	
+.ie6  ul#navigation .current a {margin-top:0px; background-position: left -28px;}	
+.ie7 ul#navigation {	background:transparent url(../images/nav-bg-trans.png) no-repeat scroll 50% 0;	line-height:12px;	margin:0 auto;	width:460px;
+	height:100%;	padding-top:5px;	padding-left:115px;}
+.ie7  #navigation li {	float:left;	height:28px;	margin:0px 11px;	padding:0px 0px;}
+.ie7 #navigation a {color:#FFFFFF;display:block;font-size:11px;height:13px;margin-left:-15px;	padding:8px 19px;text-decoration:none;
+text-shadow:1px 1px 0 #343333;}
+.ie7 .scroll {position:relative; left:15px}
+.ie7 .content-top {zoom:1; position:relative; }
+.ie7 .coda {margin-left:-34px}
+.ie7 div.gallery ul {margin-top: -10px; margin-left:30px}
+.ie7 #mainContent #social li {float: left;height: 47px;width: 216px;position: static;margin-left:0px;margin-right:29px;padding:0}
+.ie7 #social a {font-size: 1em;color: #666;text-decoration: none;display: block;width: 246px;height: 47px;position: relative;}
+.ie7 #mainContent div.gallery {margin-top: 15px;margin-bottom: -20px;}
+.chrome div.gallery ul {margin-top:5px}
+.chrome div.gallery li {float:left; margin: 0px 12px;}
+.chrome #mainContent div.gallery {margin:0 0 -2px 6px}
