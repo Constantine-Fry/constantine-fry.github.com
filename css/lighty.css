@@ -450,7 +450,7 @@ input, select {
 }
 
 body {
-background-color: #FFFFFF;
+    background-color: #FFFFFF;
     width: 440px;
     margin: 30px auto;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;;
@@ -460,11 +460,7 @@ background-color: #FFFFFF;
     text-align:left;
     overflow:hidden
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-    body {
-        width: 320px;
-    }
-}
+
 p.aligncenter{
 
     text-align: center;
@@ -484,7 +480,19 @@ h1 {
     font-family: "Molengo",  Georgia, Times; 
 }
 
-
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        width: 300px;
+        font-size: 14pt;
+        line-height: 22px;
+    }
+    
+    h1 {
+        font-size: 40px;
+        line-height: 70px; 
+        font-family: "Molengo",  Georgia, Times; 
+    }
+}
 
 nav p {
     margin: 7px 0;
