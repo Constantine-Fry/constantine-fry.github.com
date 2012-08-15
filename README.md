@@ -5,7 +5,7 @@ http://appledeveloper.me
 
 
 
-####CSS3 #HTML #jQuery
+#### #CSS3 #HTML #jQuery
 
 
 ###Detecting device size & orientation in CSS
@@ -31,25 +31,25 @@ http://stackoverflow.com/questions/2673294/website-does-not-automatically-fit-to
 
 
 
-#10 Great Google Font Combinations You Can Copy:
+###10 Great Google Font Combinations You Can Copy:
 http://designshack.net/articles/css/10-great-google-font-combinations-you-can-copy/
 
 
-#Helpful things for CSS and fonts:
+###Helpful things for CSS and fonts:
 
 http://nicewebtype.com/notes/2009/10/30/how-to-use-css-font-face/
 http://www.fontsquirrel.com/fontface/generator
 
-#Adding fonts from Goole Fonts:
+###Adding fonts from Goole Fonts:
 
-<link href="http://fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
+	<link href="http://fonts.googleapis.com/css?family=Molengo" rel="stylesheet" type="text/css">
 
 
 #Mobile safari @font-face problem - font doubled and offset to the left.
 
-h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
-    font-weight: normal;
-}
+	h1, h2, h3, h4, h5, h6 { /*reset for mobile browsers */
+  	  font-weight: normal;
+	}
 http://css-tricks.com/forums/discussion/10449/weird-mobile-safari-font-face-problem-font-doubled-and-offset-to-the-left-/p1
 
 Used
@@ -66,3 +66,4 @@ https://github.com/Juev/denis.evsyukov.org
 
 ###Fonts
 On light mobile version Molengo & Lekton.
+
