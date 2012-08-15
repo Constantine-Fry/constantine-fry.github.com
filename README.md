@@ -3,11 +3,11 @@ My Personal WebPage
 http://appledeveloper.me
 
 Mac OS X Lion with CSS3 by Alessio Atzeni
------------------------------------------
+-
 http://www.alessioatzeni.com/blog/mac-os-x-lion-with-css3/
 
 vCard Professional Portfolio by Ivor Padilla
--------------------------------------------
+-
 http://themeforest.net/item/vcard-professional-portfolio/64207
 
 
