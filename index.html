@@ -281,11 +281,10 @@
         <script type="text/javascript">
             var useragent = navigator.userAgent.toLowerCase();
             
-            if( (useragent.search("iphone"))||( useragent.search("ipod") )
-            ; // iphone
+            if( (useragent.search("iphone"))||( useragent.search("ipod") ))
+               document.location = "http://constantine-fry.github.com/phone.html";
             else if( useragent.search("ipad") )
                document.location = "http://constantine-fry.github.com/pad.html";
-            ; // ipod
             else if( useragent.search("android") )
             ; // android
             </script>
