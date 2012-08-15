@@ -763,7 +763,25 @@ a strong {
 	width:500px;
 }
 .copyright {position: relative; top:27px; left:200px}
-.copyright-coda {position: relative; top:20px; left:200px}
+.copyright-coda {
+position: relative;
+ top:20px;
+  left:255px;
+    font-size: 11px;
+    text-decoration: none;
+    color:#808080;
+    }
+    
+.last-modification {
+position: relative;
+ top:20px;
+  left:248px;
+    font-size: 11px;
+    text-decoration: none;
+    color:#808080;
+    }
+
+
 #tooltip{
 	position:absolute;
 	display:none;
