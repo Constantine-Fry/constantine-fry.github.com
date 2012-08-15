@@ -69,3 +69,8 @@ https://github.com/Juev/denis.evsyukov.org
 ###Fonts
 On light mobile version Molengo & Lekton.
 
+
+Screnshots
+=
+[Login Screen](https://raw.github.com/Constantine-Fry/constantine-fry.github.com/master/screenshots/1.png)
+[Main Screen](https://raw.github.com/Constantine-Fry/constantine-fry.github.com/master/screenshots/2.png)
