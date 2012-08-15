@@ -451,7 +451,7 @@ input, select {
 
 body {
 background-color: #FFFFFF;
-    width: 450px;
+    width: 440px;
     margin: 30px auto;
     font-family: 'Lekton', Helvetica, Arial, sans-serif;;
     font-size: 16pt;
@@ -459,6 +459,11 @@ background-color: #FFFFFF;
     color: #4E555D;
     text-align:left;
     overflow:hidden
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    body {
+        width: 320px;
+    }
 }
 p.aligncenter{
 
