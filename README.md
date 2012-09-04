@@ -1,9 +1,9 @@
-My Personal WebPage
-=
+#My Personal WebPage
+
 http://appledeveloper.me
 
-Screnshots
-=
+###Screnshots
+
 ![](https://raw.github.com/Constantine-Fry/constantine-fry.github.com/master/screenshots/1.png)
 ![](https://raw.github.com/Constantine-Fry/constantine-fry.github.com/master/screenshots/2.png)
 ![](https://raw.github.com/Constantine-Fry/constantine-fry.github.com/master/screenshots/3.png)
@@ -12,6 +12,9 @@ Screnshots
 
 #### #CSS3 #HTML #jQuery
 
+###FreeDNS
+http://freedns.afraid.org/
+For delegating appledeveloper.me to constantine-fry.github.com. A-point on nic.ru is paid service.
 
 ###Detecting device size & orientation in CSS
 
@@ -62,6 +65,7 @@ http://css-tricks.com/forums/discussion/10449/weird-mobile-safari-font-face-prob
 ###GitHub Pages help
 https://help.github.com/categories/20/articles
 
+
 Used
 ==
 
@@ -75,6 +79,7 @@ http://themeforest.net/item/vcard-professional-portfolio/64207
 https://github.com/Juev/denis.evsyukov.org
 
 ###Fonts
-On light mobile version Molengo & Lekton.
+For light mobile version i used Molengo & Lekton.
+
 
 
