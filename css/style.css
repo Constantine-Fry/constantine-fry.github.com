@@ -606,7 +606,7 @@ div.gallery img {margin:10px 0 25px 0}
 .about-content p {
 	margin:0;
     left: 10px;
-	font-size:12px;
+	font-size:11px;
 	color:#515151;
 	text-shadow:1px 1px #ffffff;
 }
@@ -758,7 +758,7 @@ a strong {
 	left:-16px;
 }
 .scrollContainer div.panel {
-	height:210px;
+	height:260px;
 	padding:20px;
 	width:500px;
 }
